@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+	<html lang="it">
+		<head> <!-- APERTURA HEAD-->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Page</title>
+	<link rel="stylesheet" type="text/css" href="CSS/index.css">
+	<link rel="stylesheet" type="text/css" href="CSS/contacts.css">
+
+	  <link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css
+" integrity="sha512-
+puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9j
+xkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=
+=" crossorigin=""/>
+
+<script
+src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+integrity="sha512-
+QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tm
+KB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+crossorigin="">
+</script>
+
+<script>
+
+       	var mymap=L.map('mapid').setView([45.32163, 8.41989], 9);
+
+       	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+       	maxZoom: 50,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(mymap);
+L.marker([45.445100,8.618390]).addTo(mymap).bindPopup("casino di novara");
+L.marker([45.321110,8.426240]).addTo(mymap).bindPopup("QuiGioco");
+L.marker([45.596340,8.264220]).addTo(mymap).bindPopup("casino vercelli" );
+L.marker([45.068370,7.683070]).addTo(mymap).bindPopup("scommesse di torino" );
+
+       	</script>
+
+</head>
+<body class="bodyf">
+	<div class="main_body_div">
+
+						<div id="div_header">  <!--div_header-->
+						<header>
+							<div id="test">
+								<strong id="textherder">
+									GOOD GAMMING
+								</strong>
+							</div>
+							
+							<div>
+								 <img id="main_img_logo_div" src="images/logo_4.png" alt="Logo Gamming"/> 
+							</div>
+
+											<!-- The social media icon bar -->
+							<div class="inset">
+									<div>
+										<a href="mailto:ansarob@gmail.com">
+									    	<img src="images/email.png" alt="gmail icon" />
+									    </a>
+									</div>
+
+									<div >
+										<a href="http://linkedin.com" title="My LinkedIn Page">
+									    	<img src="images/in.png" alt="LinkedIn icon" />
+										</a>
+									</div>
+
+									<div >
+									   <a href="http://facebook.com" title="My Facebook Page">
+									    	<img src="images/facebook.png" alt="Facebook icon" />
+									    </a>
+									</div>
+
+									<div >
+									   <a href="https://www.instagram.com/accounts/login/" title="My Istagram Page">
+									    	<img src="images/instagram_1.png" alt="Istagram icon" />
+										</a>
+									</div>
+
+									<div >
+									   <a href="http://twitter.com" title="My Twitter Page">
+									    	<img src="images/Twitter-icon.png" alt="Twitter icon" />
+										</a>
+									</div>
+
+									<div >
+									   <a href="http://flickr.com" title="My Flickr Page">
+									    	<img src="images/Flickr_Faenza_svg.png" alt="Flickr icon" />
+										</a>
+									</div>
+
+									<div >
+										<a href="https://www.youtube.com/channel/UCkZIvHDfQXyM-3XWEG1XQkQ/videos" title="Youtube">
+									    	<img src="images/youtube_2.png" alt="Youtube" />
+										</a>
+									</div>
+							</div>
+						</header>
+				</div> <!-- Il Content Division element éprobabilmente l'elemento HTML più comune -->
+						<!--Navigazione-->
+					<div>
+						<nav class="navbar_1">
+								<!--creazione di una barra di navigazione-->
+							<div class="navbar">
+								  
+								  	<a class="subnavbtn" href="index.html">Home</a>
+								  
+								  
+								  <div class="subnav">
+									    <button class="subnavbtn" >About <i class="fa fa-caret-down"></i>
+									    </button>
+										    <div class="subnav-content">
+												    
+										            <a href="images.html">Galeria</a>
+										  	</div> 
+								  </div>
+
+								  <div class="subnav">
+									    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+										    <div class="subnav-content">
+										     	
+										    </div>
+								   </div>
+
+								  <div class="subnav">
+									  <button class="subnavbtn">Categories <i class="fa fa-caret-down"></i></button>
+										    <div class="subnav-content">
+										     	 <a href="images.html">Roulette</a>
+
+									              <a href="images.html">Poker</a>
+									              <a href="images.html">Scommese</a>
+									              <a href="images.html">Offerte</a>
+									              <a href="images.html">Sport</a>
+									              <a href="images.html">Ippica</a>
+										    </div>
+								  </div>
+								  
+									<div class="subnav">
+										 
+								  			
+								  				<button class="subnavbtn">Signe In<i class="fa fa-caret-down"></i></button>
+								  			
+								  			 <div class="subnav-content">
+										     	
+										     	 <a href="login.html">Text Us</a> 
+											</div>
+								  		 
+								    </div>
+
+								 
+								  	<a class="subnavbtn" href="contact.html">Contacts</a>
+								  	<a class="subnavbtn" href="https://www.johnnybet.com/scores-casino-promo-code-2">BestScores</a>
+
+							</div>
+						</nav>
+					</div>
+			
+					<div class="body_div">
+						<div class="div_contact_page">
+
+								<!--la parte di contacts-->
+								<div class="conatct_in">
+									<p>
+										Contacts Us : +39 3511653570 
+									<br>
+										Mail Us: mozems2010@yahoo.com
+									<br>
+										Gmail Us: chaenel2010@yahoo.com
+									<br>
+										Facebook: mozems de pro
+									</p>
+								</div>
+
+								<!--la mappa-->
+								<div id="mapid">
+									<script>
+
+								       	var mymap=L.map('mapid').setView([45.32163, 8.41989], 9);
+
+								       	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+								       	maxZoom: 50,
+								    	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+											}).addTo(mymap);
+											L.marker([45.445100,8.618390]).addTo(mymap).bindPopup("casino di novara");
+											L.marker([45.321110,8.426240]).addTo(mymap).bindPopup("QuiGioco");
+											L.marker([45.596340,8.264220]).addTo(mymap).bindPopup("casino vercelli" );
+											L.marker([45.068370,7.683070]).addTo(mymap).bindPopup("scommesse di torino" );
+
+								    </script>
+								</div>
+						</div>
+
+					</div>
+
+
+		<div id="div_footer"><!--div_footer-->	
+				<footer>
+
+							<p>
+								GOOD GAMING <br>
+								Gambling gamming and brain working<br> 
+								Gamming with good Music, Best Records off gamming, Best Video Records<br>
+								Life is all about Gamming and spiritual thought don't sleep without playing brainning.<br>
+								Contacts Us : +39 3895698109 <br>
+								Mail Us: tchatotomeko@yahoo.com<br>
+							</p>
+							
+				</footer>
+		</div>
+	</div>
+</body>
+</html>

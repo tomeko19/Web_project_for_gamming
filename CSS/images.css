@@ -1,0 +1,28 @@
+.parai {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 30px;
+}
+.bottonsi{
+  text-align: center;
+}
+
+.bottonsi button{
+  text-align: center;
+  background-color: rgb(153, 153, 102, 0.3);
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.bottonsi button:hover{
+  background-color: rgb(255, 255, 255, 0.7);
+  font-size: 25px;
+  border-radius: 60px;
+}
+.imag img{
+  width: 60%; 
+  height: 60%; 
+  margin-left: 19.5%;
+}

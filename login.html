@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head> <!-- APERTURA HEAD-->
+					<meta charset="utf-8">
+					<meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<!-- wep title-->
+			<title>Good Gamming</title>
+
+			<!-- calling css files-->
+			<link rel="stylesheet" type="text/css" href="CSS/index.css">
+			<link rel="stylesheet" type="text/css" href="CSS/login.css">
+
+<!-- calling javascript file-->
+			<script src="JS/login.js" ></script>
+
+
+  <script>
+  <!--
+  function verif_formulaire()
+  {
+       
+  if(document.form1.nom.value == "")  {
+  alert("Veuillez entrer votre nom !");
+  document.form1.nom.focus();
+  return false;
+  }
+  
+  if(document.form1.mail.value == "") {
+  alert("Veuillez entrer votre e-mail !");
+  document.form1.mail.focus();
+  return false;
+  } else {
+  
+  var str = document.form1.mail.value;
+  var re = /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/;
+  
+  if (!str.match(re)) {
+  alert("Verifier le format\n de votre e-mail !");
+  document.form1.mail.focus();
+  return false;
+  }
+  }
+  
+  if(document.form1.message.value == "") {
+  alert("Veuillez entrer un message !");
+  document.form1.message.focus();
+  return false;
+  }
+  
+  if(document.form1.objet.value == "") {
+  alert("Veuillez entrer un objet !");
+  document.form1.objet.focus();
+  return false;
+  }
+  
+    
+  if(document.form1.code.value == "") {
+  alert("Ne pas oublier le code de sécurité !");
+  document.form1.code.focus();
+  return false;
+  }
+  
+  
+  }
+  -->
+  </script>
+  
+  
+  <script >
+  <!--
+  function new_captcha()
+  {
+  var c_currentTime = new Date();
+  var c_miliseconds = c_currentTime.getTime();
+  document.getElementById('captcha').src ='robot_test/image.php?x='+ c_miliseconds;
+  }
+  -->
+  </script>
+
+
+		</head>
+<body class="bodyf">
+
+<!-- start php codes here-->
+
+<?php 
+        include 'connect.php'; 
+        
+        include 'login.php'; 
+?>
+
+<!--End php codes here-->
+
+	<div class="main_body_div">
+
+						<div id="div_header">  <!--div_header-->
+						<header>
+							<div id="test">
+								<strong id="textherder">
+									GOOD GAMMING
+								</strong>
+							</div>
+							
+							<div>
+								 <img id="main_img_logo_div" src="images/logo_4.png" alt="logo gg"/> 
+							</div>
+
+											<!-- The social media icon bar -->
+							<div class="inset">
+									<div>
+										<a href="mailto:ansarob@gmail.com">
+									    	<img src="images/email.png" alt="gmail icon" />
+									    </a>
+									</div>
+
+									<div >
+										<a href="http://linkedin.com" title="My LinkedIn Page">
+									    	<img src="images/in.png" alt="LinkedIn icon" />
+										</a>
+									</div>
+
+									<div >
+									   <a href="http://facebook.com" title="My Facebook Page">
+									    	<img src="images/facebook.png" alt="Facebook icon" />
+									    </a>
+									</div>
+
+									<div >
+									   <a href="https://www.instagram.com/accounts/login/" title="My Istagram Page">
+									    	<img src="images/instagram_1.png" alt="Istagram icon" />
+										</a>
+									</div>
+
+									<div >
+									   <a href="http://twitter.com" title="My Twitter Page">
+									    	<img src="images/Twitter-icon.png" alt="Twitter icon" />
+										</a>
+									</div>
+
+									<div >
+									   <a href="http://flickr.com" title="My Flickr Page">
+									    	<img src="images/Flickr_Faenza_svg.png" alt="Flickr icon" />
+										</a>
+									</div>
+
+									<div >
+										<a href="https://www.youtube.com/channel/UCkZIvHDfQXyM-3XWEG1XQkQ/videos" title="Youtube">
+									    	<img src="images/youtube_2.png" alt="Youtube" />
+										</a>
+									</div>
+							</div>
+						</header>
+				</div> <!-- Il Content Division element éprobabilmente l'elemento HTML più comune -->
+
+						<!--Navigazione-->
+					<div>
+						<nav class="navbar_1">
+								<!--creazione di una barra di navigazione-->
+							<div class="navbar">
+								   
+								  	<a class="subnavbtn" href="index.html">Home</a>
+								   
+								  
+								  <div class="subnav">
+									     <button class="subnavbtn" >About <i class="fa fa-caret-down"></i></button> 
+										    <div class="subnav-content">
+												    
+										             <a href="images.html">Galerie</a> 
+										  	</div> 
+								  </div>
+
+								  <div class="subnav">
+									     <button  class="subnavbtn">Services <i></i></button> 
+										    <div class="subnav-content">
+										     	
+										    </div>
+								   </div>
+
+								    <div class="subnav">
+									  <button class="subnavbtn">Categories <i class="fa fa-caret-down"></i></button> 
+										    <div class="subnav-content">
+										     	 <a href="images.html">Roulette</a> 
+
+									               <a href="images.html">Poker</a> 
+									               <a href="images.html">Scommese</a> 
+									               <a href="images.html">Offerte</a> 
+									               <a href="images.html">Sport</a> 
+									               <a href="images.html">Ippica</a> 
+										    </div>
+									</div>
+								  
+									<div class="subnav">
+										
+								  			 
+								  			<button class="subnavbtn">Signe In<i class="fa fa-caret-down"></i></button>
+								  			 
+								  			<div class="subnav-content">
+										     	 
+										     	 <a href="login.html">Text Us</a> 
+											</div>
+								  		
+								    </div>
+
+									
+									  	<a class="subnavbtn" href="contact.html">Contacts</a>
+									  	<a class="subnavbtn" href="https://www.johnnybet.com/scores-casino-promo-code-2">BestScores</a>
+									
+
+							</div>
+						</nav>
+					</div>
+
+
+			    <div class="forma_reg_e_log">
+							<form onSubmit="return verif_formulaire();" action="robot_test/envoi.php" name="myform" method="post"  id="formLogin" class="login_form"   enctype="application/x-www-form-urlencoded" >
+							    <div class="main_div" >
+							      
+							      	<div id="login_div">
+							             
+							              <p>Contact Us</p>
+							              	<div class="form-contact">
+											     <input type="Text" name="name" id="inputName" class="form-control" placeholder="Your Name" ><br><br>
+											         
+											     <input type="email" name="email" id="inputEmail" class="form-control" placeholder="name@email.com"  ><br><br>
+											         
+											     <input type="Text" name="subject" id="inputSubject" class="form-control" placeholder="Your Subject Line"  ><br><br>
+
+                                                  <textarea name="msg" placeholder="Enter text..." rows="4" cols="50"></textarea>
+                                                  
+                                                  <br><br>
+											     
+											     	<a href="JavaScript: new_captcha();">
+                                            <img style="width: 60px; height: 45px;" class="robot_img_2" src="robot_test/refresh.jpg" width="45" height="45" alt="code" ></a>
+
+											
+    <br /><img style="width: 380px; height: 65px;" src="robot_test/image.php" id="captcha" width="120" height="45" alt="images lo"> 
+    <input type="text" name="code" size="6" maxlength="6"  placeholder="Codice Qui">
+    <input type="reset" name="vid" value="Svuotare" />
+    <input name="sub" type="submit" value="Submit" class="btn btn-lg btn-primary btn-block">
+											     
+											</div>
+											
+    
+							           	
+							        </div> <!--end main div-->
+							          
+							    </div>
+							</form>
+				</div>						
+
+
+				<div id="div_footer"><!--div_footer-->	
+						<footer>
+
+							<p class="footer_text">
+								GOOD GAMING <br>
+								Gambling gamming and brain working<br> 
+								Gamming with good Music, Best Records off gamming, Best Video Records<br>
+								Life is all about Gamming and spiritual thought don't sleep without playing brainning.<br>
+								Contacts Us : +39 3895698109 <br>
+								Mail Us: tchatotomeko@yahoo.com<br>
+							</p>
+							
+						</footer>
+				</div>
+	</div>
+</body>
+</html>

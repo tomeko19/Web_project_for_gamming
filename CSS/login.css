@@ -1,0 +1,57 @@
+.forma_reg_e_log{
+	height: auto;
+	width: 100%;
+	display: inline-block;
+}
+
+.login_form{
+	background-color: rgba(4, 189, 251, 0.0);
+}
+
+														/*START LOGIN PART*/
+/*just the login part*/
+#login_div {
+	background-color: rgba(4, 189, 251, 0.2);
+	border: 2px solid transparent;
+	border-radius: 80px;
+	width: 45%;
+	margin-left: 30%;
+	margin-top: 2%;
+	margin-bottom: 0%;
+	height: auto;
+	padding: 20px 20px;
+	border: 2px solid rgba(255, 255, 255, 0.8); /*transperancy = 0.1*/
+	resize: both;
+	text-align: center;
+	max-width: 35%;
+}
+ 
+
+														/*END LOGIN PART*/
+ 
+
+p { 										/*this is for the text above the forms*/
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+											/*for all input space provided*/
+input{
+	font-size: 184%;
+	border-radius: 8px;
+    border: 3px solid green;
+}
+
+											/* the submit and login button*/
+button{
+  	border-radius: 10px;
+    border: 2px solid green;
+  	padding: 8px; 
+  	width: 90%;
+}
+
+button:hover, input:hover{
+	color: rgb(0, 102, 204, 0.5);
+}
+
