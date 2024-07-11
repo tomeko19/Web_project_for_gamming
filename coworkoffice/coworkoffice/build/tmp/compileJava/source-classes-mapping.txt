@@ -1,0 +1,60 @@
+taskModelsJSGrid/AttuatoreJs.java
+ taskModelsJSGrid.AttuatoreJs
+tasksDao/GestioneUtente.java
+ tasksDao.GestioneUtente
+tasksDao/GestioneAttuatore.java
+ tasksDao.GestioneAttuatore
+RESTService/RESTMisura.java
+ RESTService.RESTMisura
+MQTT/subscriber/SubscribeCallBack.java
+ MQTT.subscriber.SubscribeCallBack
+tasks/Utente.java
+ tasks.Utente
+tasksDao/GestioneMisura.java
+ tasksDao.GestioneMisura
+jwtToken/jwtlib/JWTfun.java
+ jwtToken.jwtlib.JWTfun
+MQTT/subscriber/MQTTSubscriber.java
+ MQTT.subscriber.MQTTSubscriber
+tasks/Attuatore.java
+ tasks.Attuatore
+RESTService/RESTLocale.java
+ RESTService.RESTLocale
+RESTService/RESTSensore.java
+ RESTService.RESTSensore
+RESTService/RESTPrenotazione.java
+ RESTService.RESTPrenotazione
+tasks/Locale.java
+ tasks.Locale
+tasksDao/GestioneSensore.java
+ tasksDao.GestioneSensore
+taskModelsJSGrid/SensoreJs.java
+ taskModelsJSGrid.SensoreJs
+TasksService.java
+ TasksService
+RESTService/RESTAttuatore.java
+ RESTService.RESTAttuatore
+jwtToken/verifySignature.java
+ jwtToken.verifySignature
+tasksDao/GestionePrenotazione.java
+ tasksDao.GestionePrenotazione
+tasks/Prenotazione.java
+ tasks.Prenotazione
+MQTT/publisher/MQTTPublisher.java
+ MQTT.publisher.MQTTPublisher
+taskModelsJSGrid/Slot.java
+ taskModelsJSGrid.Slot
+tasks/Misura.java
+ tasks.Misura
+utils/DBConnect.java
+ utils.DBConnect
+jwtToken/Utils.java
+ jwtToken.Utils
+tasks/Sensore.java
+ tasks.Sensore
+RESTService/RESTUtente.java
+ RESTService.RESTUtente
+MQTT/GestioneMisureLocaliMQTT.java
+ MQTT.GestioneMisureLocaliMQTT
+tasksDao/GestioneLocale.java
+ tasksDao.GestioneLocale
